@@ -1,0 +1,20 @@
+﻿{
+  "name": "AiCodeUniApp",
+  "version": "1.0.0",
+  "description": "八字测算 - 支持 Android App / 微信小程序 / H5",
+  "private": true,
+  "scripts": {
+    "dev:mp-weixin": "uni-app -p mp-weixin",
+    "build:mp-weixin": "uni-app build -p mp-weixin",
+    "dev:app": "uni-app -p app",
+    "build:app": "uni-app build -p app"
+  },
+  "dependencies": {
+    "vue": "2.7.16"
+  },
+  "devDependencies": {
+    "@dcloudio/uni-cli": "2.0.3",
+    "@dcloudio/uni-mp-weixin": "2.0.3",
+    "@dcloudio/uni-template-compiler": "2.0.3"
+  }
+}
